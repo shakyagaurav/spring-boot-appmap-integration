@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: ctz_test
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/ctz_test
+    username: root
+    password: root
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        ddl-auto: update
+        show-sql: true
