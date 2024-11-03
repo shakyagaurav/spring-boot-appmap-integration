@@ -1,11 +1,11 @@
 spring:
   application:
-    name: ctz_test
+    name: spring-boot-appmap-integration
 
   datasource:
     url: jdbc:mysql://localhost:3306/ctz_test
     username: root
-    password: root
+    password: G@ur@v@123
 
   jpa:
     properties:
@@ -13,3 +13,6 @@ spring:
         dialect: org.hibernate.dialect.MySQLDialect
         ddl-auto: update
         show-sql: true
+appmap:
+  recording:
+    auto: true
